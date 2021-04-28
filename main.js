@@ -44,7 +44,7 @@ client.on("message", msg => {
 //client.listen(process.env.PORT, '0.0.0.0')
 var port = process.env.PORT || 8080
 
-var server=client.listen(port,function() {
+var server=app.listen(port,function() {
 console.log("Client running on port 8080"); });
 
 client.login(process.env.TOKEN);
