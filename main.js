@@ -42,7 +42,7 @@ client.on("message", msg => {
 
 //let port = process.env.PORT || 5000;
 //client.listen(process.env.PORT, '0.0.0.0')
-
+var port = process.env.PORT || 5000
 
 client.login(process.env.TOKEN);
 //client.login("");
