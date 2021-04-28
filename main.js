@@ -44,10 +44,10 @@ client.on("message", msg => {
 //client.listen(process.env.PORT, '0.0.0.0')
 //var port = process.env.PORT || 8080
 
-let port = process.env.PORT || 8080;
+//let port = process.env.PORT || 8080;
 
-client.listen(port, ()=>{
-    console.log(`client running on ${port}`);
+//client.listen(port, ()=>{
+    //console.log(`client running on ${port}`);
 
 client.login(process.env.TOKEN);
 //client.login("");
